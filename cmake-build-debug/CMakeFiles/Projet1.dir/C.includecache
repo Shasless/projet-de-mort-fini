@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adriengirard/Downloads/projetdemort-master/fonctions.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+structs.h
+/Users/adriengirard/Downloads/projetdemort-master/structs.h
+
+/Users/adriengirard/Downloads/projetdemort-master/fonctions.h
+fonctions.c
+/Users/adriengirard/Downloads/projetdemort-master/fonctions.c
+
+/Users/adriengirard/Downloads/projetdemort-master/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+structs.h
+/Users/adriengirard/Downloads/projetdemort-master/structs.h
+fonctions.h
+/Users/adriengirard/Downloads/projetdemort-master/fonctions.h
+
+/Users/adriengirard/Downloads/projetdemort-master/structs.h
+
